@@ -7,7 +7,6 @@ Nice hacks and tricks for WatchMeIP webcams.
 
 ### My webcam
 
-* Internal link: http://cam01-internal.solarma.it (192.168.12.30)
 * Brand/model: [WatchMeIP](http://watchmeip.com/) Indoor
 * [WatchMeIP - Tutorial and Setup](http://www.youtube.com/watch?v=Bq4x52Z6nDs)
 
@@ -32,6 +31,8 @@ Nice hacks and tricks for WatchMeIP webcams.
     * http://www.francescotucci.com
 
 ## Testing WatchMeIP control API
+
+* Internal link: http://cam01-internal.solarma.it (192.168.12.30)
 
 ### Login page
 
