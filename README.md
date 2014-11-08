@@ -31,4 +31,36 @@ Nice hacks and tricks for WatchMeIP webcams.
     * http://www.iltucci.com
     * http://www.francescotucci.com
 
+## Testing WatchMeIP control API
+
+### Login page
+
+* http://cam01-internal.solarma.it/login.htm
+
+### Get status
+* http://cam01-internal.solarma.it/get_status.cgi
+```
+var id='006E060704DA';
+var sys_ver='0.41.2.47';
+var app_ver='6.2.10.1';
+var alias='';
+var now=1415453750;
+var tz=0;
+var alarm_status=0;
+var ddns_status=200;
+var ddns_host='ihome365.org';
+var oray_type=0;
+var upnp_status=4;
+var p2p_status=0;
+var p2p_local_port=20436;
+var msn_status=0;
+var wifi_status=0;
+var temperature=0.0;
+var humidity=0;
+```
+
+### Returning "404 Not Found"
+
+* http://cam01-internal.solarma.it/help
+
 <!-- EOF -->
