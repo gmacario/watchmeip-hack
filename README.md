@@ -38,6 +38,12 @@ Nice hacks and tricks for WatchMeIP webcams.
 
 * http://cam01-internal.solarma.it/login.htm
 
+### Main page
+
+Must be previously authenticated with user,pwd
+
+* http://cam01-internal.solarma.it/index1.htm
+
 ### Get status
 * http://cam01-internal.solarma.it/get_status.cgi
 
