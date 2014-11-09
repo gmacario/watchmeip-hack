@@ -18,8 +18,8 @@ Nice hacks and tricks for WatchMeIP webcams.
 * [Videosorveglianza con Raspberry Pi](http://linuxdaytorino.org/2014/assets/slides/videosorveglianza.pdf) - [Francesco Tucci](http://www.francescotucci.com) @Linux Day Torino 2014
   * [Raspberry Pi](http://www.raspberrypi.org/)
   * [Tweepy](http://www.tweepy.org/) - An easy-to-use Python library for accessing the Twitter API
-  * http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome
-  * http://twitter.com
+  * [Motion](http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome) - a software motion detector
+  * [Twitter](http://twitter.com)
   * [Pulseway](http://www.pulseway.com) - Remotely Monitor and Control IT Systems from any Smartphone or Tablet
     * Personal plan is free!
       * 5 monitored systems
@@ -40,6 +40,7 @@ Nice hacks and tricks for WatchMeIP webcams.
 
 ### Get status
 * http://cam01-internal.solarma.it/get_status.cgi
+
 ```
 var id='006E060704DA';
 var sys_ver='0.41.2.47';
