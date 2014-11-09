@@ -32,7 +32,9 @@ Nice hacks and tricks for WatchMeIP webcams.
 
 ## Testing WatchMeIP control API
 
-* Internal link: http://cam01-internal.solarma.it (192.168.12.30)
+In the following section the Base URL of my WatchMeIP is http://cam01-internal.solarma.it (192.168.12.30).
+
+Please replace Base URL according to your configuration.
 
 ### Login page
 
