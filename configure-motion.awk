@@ -17,6 +17,10 @@ BEGIN	{
 	  print "netcam_url http://cam01-internal.solarma.it/snapshot.cgi?user=admin&pwd=8iKu@kx!0&count=x"
 	  next
 	}
+/^control_localhost on/ {
+	  print "control_localhost off"
+	  next
+	}
 // 	{
 	  print $0
 	}
