@@ -10,9 +10,12 @@ ADD configure-motion.awk /root/
 RUN awk -f /root/configure-motion.awk /etc/motion/motion.conf >/root/.motion/motion.conf
 
 # DEBUG
-#RUN diff -uw /etc/motion/motion.conf /root/.motion/motion.conf
+RUN diff -uw /etc/motion/motion.conf /root/.motion/motion.conf || true
 
-#ENTRYPOINT ["motion"]
-ENTRYPOINT ["motion", "-s"]
-EXPOSE 8080
+RUN mkdir -p /tmp/motion
+VOLUME ["/tmp/motion"]
+
+ENTRYPOINT ["motion"]
+#ENTRYPOINT ["motion", "-s"]
+EXPOSE 8080 8081
 CMD [""]
